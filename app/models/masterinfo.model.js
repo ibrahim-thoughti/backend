@@ -1,4 +1,4 @@
-const sql = require("./db.js");
+const sql = require("../utils/db.js");
 
 const MasterInfo = function (masterinfo) {
 	this.flag = masterinfo.flag;

@@ -1,4 +1,4 @@
-const sql = require("./db.js");
+const sql = require("../utils/db.js");
 
 const Registration = function (register) {
 	this.flag = register.flag;
