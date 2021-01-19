@@ -21,7 +21,9 @@ if (process.env.NODE_ENV === "development") {
 }
 
 app.get("/test", (req, res) => {
-	res.json({ message: "Welcome to bezkoder application.....TEST SUCCESS..." });
+	res.json({
+		message: "Welcome to bezkoder application.....TEST SUCCESS!!!",
+	});
 });
 app.post("/test", (req, res) => {
 	console.log(req.body);
